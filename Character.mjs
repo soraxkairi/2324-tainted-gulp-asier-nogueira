@@ -10,7 +10,7 @@ export default class Character {
 
     static from({ playerData, potions }) {
     
-        return new Character(this.fullName = fullName + "the", health, magick, stamina, potions);
+        return new Character(playerData.name + "the" + playerData.class,playerData.health,playerData.magick,playerData.stamina,potions);
     }
 
 
